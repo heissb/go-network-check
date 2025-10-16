@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: network-status-api
-        image: YOUR_AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/network-status-api:latest
+        image: {ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com/network-status-api:latest
         ports:
         - containerPort: 8080
           protocol: TCP
